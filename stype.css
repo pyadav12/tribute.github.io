@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.main{
+    width: 1290px;
+    height: 1200px;
+    background-color: gray;
+
+}
+.main1{
+    width: 1200px;
+    height: 970px;
+    /* background-color: brown; */
+    /* margin-top: 50px; */
+}
+.name{
+    width: 500px;
+    height: 80px;
+    /* background-color: blueviolet; */
+    align-items: center;
+    margin-left: 430px;
+    /* margin-top: 50px; */
+    /* text-align: center; */
+    font-size: 15px;
+    /* text-shadow: green; */
+
+
+}
+/* .name b{
+    
+} */
+h1{
+    text-align: center;
+    /* margin-top: 30px; */
+    /* color: b; */
+    text-shadow: 3px 1px white;
+}
+.imgapj{
+    width: 300px;
+    height: 200px;
+    /* background-color: yellowgreen; */
+    background: url(images/b.r1.jpg) no-repeat;
+    background-size: 230px 200px;
+    margin-left: 550px;
+    margin-top: 10px;
+}
+.text{
+    width: 700px;
+    height: 600px;
+    background-color:  #f4f5f6;
+    margin-left: 300px;
+    /* box-shadow: 10px 20px yellow; */
+    box-shadow: 8px 8px 8px 8px black;
+    margin-top: 20px;
+    padding: 10px 20px;
+    transition: 3s;
+    cursor: pointer;
+    
+    
+} 
+.text h2 :hover{
+    color: red;
+    /* transition: 3s; */
+    text-shadow: 3px 1px black;
+  
+}
+.text p{
+    color: blueviolet;
+}
+.mainC{
+    color: red;
+    font-size: 20px;
+}
